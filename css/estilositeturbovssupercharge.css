@@ -1,16 +1,39 @@
 body{
     background-color: darkgray;
+    background-image: url("../img/Supercharge.png");
+    background-repeat: no-repeat;
+
 }
+
 header{
-    background-color: rgb(77, 139,195);
     padding:3%
 }
-.logo{
-    background-color: yellow;
+
+#menu ul{
+    padding:0px;
+    margin:0px;
+    background-color: #EDEDED;
+    list-style: none;
 }
+
+#menu ul li{display: inline;}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display; inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+    color: red
+}
+
+.logo{
+    background-color: red;
+}
+
 nav{
     background-color: rgb(184, 209, 231);
 }
+
 main{
     background-color: rgb(146, 208, 80);
     width:80%;
@@ -18,9 +41,11 @@ main{
     margin-left: auto;
 
 }
+
 section{
-    background-color: lightsalmon;
+    background-color:lightsalmon
 }
+
 footer{
     background-color: rgb(112, 48,160);
     padding: 3%

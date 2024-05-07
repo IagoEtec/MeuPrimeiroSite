@@ -1,7 +1,10 @@
 body{
-    background-color: darkgray;
-    background-image: url("../img/Supercharge.png");
+    
+    background-color: rgb(71, 71, 71);
+    background-image: url("../img/Lamborghini\ Aventador.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -12,7 +15,7 @@ header{
 #menu ul{
     padding:0px;
     margin:0px;
-    background-color: #EDEDED;
+    
     list-style: none;
 }
 
@@ -20,33 +23,56 @@ header{
 
 #menu ul li a {
     padding: 2px 10px;
-    display; inline-block;
+    display: inline-block;
     text-decoration: none;
     border-bottom: 3px solid #EDEDED;
-    color: red
+    color: crimson;
 }
 
 .logo{
-    background-color: red;
+   
 }
 
 nav{
-    background-color: rgb(184, 209, 231);
+    
 }
 
 main{
-    background-color: rgb(146, 208, 80);
+    
     width:80%;
     margin-right: auto;
     margin-left: auto;
+}
 
+h1{
+   height:auto;
+   width:auto;
+   color: crimson;
+   font-size: xx-large;
+   border: 3px solid crimson;
+   background-color: rgb(218, 161, 172);
+}
+
+h2{
+    
+    font-size: x-large;
+    color: crimson;
+    line-height: 3;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul li{
+    line-height: 1.5;
 }
 
 section{
-    background-color:lightsalmon
+    color: lightgrey;
 }
 
 footer{
-    background-color: rgb(112, 48,160);
+    
     padding: 3%
 }

@@ -1,7 +1,7 @@
 body{
     
-    background-color: rgb(71, 71, 71);
-    background-image: url("../img/Lamborghini\ Aventador.jpg");
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/Wallpaper\ Honda\ nsx.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
@@ -19,7 +19,10 @@ header{
     list-style: none;
 }
 
-#menu ul li{display: inline;}
+#menu ul li{
+    display: inline;
+    font-size: 1.2em;
+}
 
 #menu ul li a {
     padding: 2px 10px;
@@ -29,9 +32,6 @@ header{
     color: crimson;
 }
 
-.logo{
-   
-}
 
 nav{
     
@@ -54,6 +54,15 @@ h1{
 }
 
 h2{
+    height:auto;
+    width:auto;
+    color: crimson;
+    font-size: xx-large;
+    border: 3px solid crimson;
+    background-color: rgb(218, 161, 172);
+}
+
+h3{
     
     font-size: x-large;
     color: crimson;
@@ -62,6 +71,8 @@ h2{
 
 p{
     line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 ul li{
@@ -73,6 +84,28 @@ section{
 }
 
 footer{
-    
+    color: crimson;
     padding: 3%
+}
+
+.logo img{
+    width: 40%;
+    height: auto;
+}
+
+.cabecalho{
+   padding: 3%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+figure{
+    text-align: center;
+    display: inline-block;
+}
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 3%;
 }

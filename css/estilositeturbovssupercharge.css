@@ -28,8 +28,11 @@ header{
     padding: 2px 10px;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 3px solid #EDEDED;
-    color: crimson;
+    border-bottom: 3px solid crimson;
+    color: black;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-radius: 25px;
 }
 
 
@@ -45,21 +48,23 @@ main{
 }
 
 h1{
-   height:auto;
-   width:auto;
-   color: crimson;
-   font-size: xx-large;
-   border: 3px solid crimson;
-   background-color: rgb(218, 161, 172);
+    text-align: center;
+    height:auto;
+    width:auto;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-radius: 25px;
 }
 
 h2{
+    
+    line-height: 1.7;
     height:auto;
     width:auto;
     color: crimson;
     font-size: xx-large;
-    border: 3px solid crimson;
-    background-color: rgb(218, 161, 172);
 }
 
 h3{
